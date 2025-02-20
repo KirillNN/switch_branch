@@ -1,4 +1,4 @@
-cd C:\PyProjects\pyQT_project\
+cd C:\PyProjects\switch_branch\
 call venv\Scripts\activate.bat
-python C:\PyProjects\pyQT_project\main.py
+python C:\PyProjects\switch_branch\main.py
 pause
