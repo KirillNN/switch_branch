@@ -12,6 +12,7 @@ class MyWindow(QWidget):
     def button_clicked(self, button_text, button_id):
         print(f"Нажата {button_text} с ID {button_id}")
         set_branch(dirname, button_id)
+        sys.exit(app.exec())
 
     def initUI(self, buttons):
         self.setWindowTitle("Окно с тремя кнопками")
